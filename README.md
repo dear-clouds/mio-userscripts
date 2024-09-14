@@ -16,4 +16,4 @@ Usercripts can be updated automatically via the add-on and everything should be 
 
 ## Livejournal
 
-- Bypass External Link Warning: [Install]() or [Greasyfork]()
+- Bypass External Link Warning: [Install](https://github.com/dear-clouds/mio-userscripts/raw/main/livejournal/bypassexternallink.user.js) or [Greasyfork](https://greasyfork.org/en/scripts/508373-bypass-livejournal-external-link-warning)

@@ -19,4 +19,4 @@ Usercripts can be updated automatically via the add-on and everything should be 
 
 ## SimFileShare
 
-- Download all files in folder + One-click download: [Greasyfork]()
+- Download all files in folder + One-click download: [Greasyfork](https://greasyfork.org/en/scripts/513304-simfileshare-folder-downloader)

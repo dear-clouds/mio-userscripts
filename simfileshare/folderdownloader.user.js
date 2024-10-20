@@ -7,6 +7,7 @@
 // @supportURL   https://github.com/dear-clouds/mio-userscripts/issues
 // @match        https://simfileshare.net/folder/*
 // @grant        none
+// @license      MIT
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js
 // ==/UserScript==

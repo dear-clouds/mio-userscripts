@@ -11,9 +11,12 @@ Usercripts can be updated automatically via the add-on and everything should be 
 
 ## MyDramaList
 
-- [BetterMDL](https://github.com/dear-clouds/better-mdl)
-  Have its own repo because it's a big usercript with tons of features.
+- [BetterMDL](https://github.com/dear-clouds/better-mdl): Have its own repo because it's a big usercript with tons of features.
 
 ## Livejournal
 
-- Bypass External Link Warning: [Install](https://github.com/dear-clouds/mio-userscripts/raw/main/livejournal/bypassexternallink.user.js) or [Greasyfork](https://greasyfork.org/en/scripts/508373-bypass-livejournal-external-link-warning)
+- Bypass External Link Warning: [Greasyfork](https://greasyfork.org/en/scripts/508373-bypass-livejournal-external-link-warning)
+
+## SimFileShare
+
+- Download all files in folder + One-click download: [Greasyfork]()

@@ -23,7 +23,7 @@
             downloadButton.style.marginTop = '10px';
             downloadButton.style.padding = '10px';
             downloadButton.style.backgroundColor = 'var(--component-button-action-default)';
-            downloadButton.style.color = '#fff';
+            downloadButton.style.color = 'var(--component-button-onAction-default)';
             downloadButton.style.border = 'none';
             downloadButton.style.borderRadius = 'var(--global-radius-md)';
             downloadButton.style.cursor = 'pointer';

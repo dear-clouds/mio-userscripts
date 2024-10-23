@@ -19,8 +19,8 @@ Usercripts can be updated automatically via the add-on and everything should be 
 
 ## Patreon
 
-- Attachments Downloader: [Greasyfork]()
-- Auto-Like post when downloading attachment: [Greasyfork]()
+- Attachments Downloader: [Greasyfork](https://greasyfork.org/en/scripts/513744-patreon-attachment-downloader)
+- Auto-Like post when downloading attachment: [Greasyfork](https://greasyfork.org/en/scripts/513745-patreon-auto-like-on-download)
 
 ## SimFileShare
 

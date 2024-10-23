@@ -5,7 +5,8 @@
 // @description  Automatically bypass LiveJournal's external link warning page
 // @author       Mio.
 // @supportURL   https://github.com/dear-clouds/mio-userscripts/issues
-// @match        https://www.livejournal.com/away?to=*
+// @license      GPL-3.0
+// @match        *://*.livejournal.com/away?to=*
 // @grant        none
 // ==/UserScript==
 

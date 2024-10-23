@@ -17,6 +17,11 @@ Usercripts can be updated automatically via the add-on and everything should be 
 
 - Bypass External Link Warning: [Greasyfork](https://greasyfork.org/en/scripts/508373-bypass-livejournal-external-link-warning)
 
+## Patreon
+
+- Attachments Downloader: [Greasyfork]()
+- Auto-Like post when downloading attachment: [Greasyfork]()
+
 ## SimFileShare
 
 - Download all files in folder + One-click download: [Greasyfork](https://greasyfork.org/en/scripts/513304-simfileshare-folder-downloader)

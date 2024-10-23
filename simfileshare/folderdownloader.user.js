@@ -5,9 +5,9 @@
 // @description  Adds a button to download all files in a Simfileshare folder as a zip file and individual download buttons
 // @author       Mio.
 // @supportURL   https://github.com/dear-clouds/mio-userscripts/issues
-// @match        https://simfileshare.net/folder/*
+// @match        *://*.simfileshare.net/folder/*
 // @grant        none
-// @license      MIT
+// @license      GPL-3.0
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js
 // ==/UserScript==
@@ -92,7 +92,7 @@
             console.log(`Folder title determined: ${folderTitle}`);
 
             // Function to fetch files with retries and concurrency limit
-            const fetchFileWithRetry = async (url, retries = 20) => {
+            const fetchFileWithRetry = async (url, retries = 20) => { // Here you can control the number of retries. Default: 20
                 for (let attempt = 0; attempt < retries; attempt++) {
                     try {
                         const directUrl = url.replace('/download/', '/cdn/download/') + '/?dl';

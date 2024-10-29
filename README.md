@@ -9,6 +9,11 @@ Usercripts can be updated automatically via the add-on and everything should be 
 > [!NOTE]
 > I can take requests when I feel like it and they interest me, just open an [new issue](https://github.com/dear-clouds/mio-userscripts/issues/new) with the label request.
 
+## Drama-Otaku
+[DramaOtaku+](https://github.com/dear-clouds/mio-userscripts/raw/refs/heads/main/drama-otaku/dramaotaku+.user.js): I plan to add features as needed. Current features:
+- Download all subs as ZIP
+- Auto-thanks when downloading subs
+
 ## MyDramaList
 
 - [BetterMDL](https://github.com/dear-clouds/better-mdl): Have its own repo because it's a big usercript with tons of features.

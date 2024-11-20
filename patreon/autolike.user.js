@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         Patreon Auto-Like on Download
 // @namespace    https://github.com/dear-clouds/mio-userscripts
-// @version      1.0
+// @version      1.1
 // @description  Automatically like a post when downloading an attachment on Patreon
 // @author       Mio.
 // @supportURL   https://github.com/dear-clouds/mio-userscripts/issues
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=patreon.com
 // @license      GPL-3.0
 // @match        *://*.patreon.com/posts/*
+// @match        *://*.patreon.com/*
 // @grant        none
 // ==/UserScript==
 
@@ -15,21 +16,38 @@
     'use strict';
 
     window.addEventListener('load', function() {
-        const attachmentContainer = document.querySelector('div[data-tag="post-attachments"]');
-        if (attachmentContainer) {
-            const attachmentElements = attachmentContainer.querySelectorAll('a, button');
-            // Attach a click listener to each link or button inside the attachment container
-            attachmentElements.forEach(element => {
-                element.addEventListener('click', () => {
-                    likePostIfNotLiked();
-                });
+        // Observe for new posts loaded dynamically
+        const observer = new MutationObserver((mutations) => {
+            mutations.forEach((mutation) => {
+                if (mutation.addedNodes.length) {
+                    processPosts();
+                }
             });
-        }
+        });
+        observer.observe(document.body, { childList: true, subtree: true });
+
+        processPosts();
     });
 
-    function likePostIfNotLiked() {
-        // Check if the post is already liked by looking for the "Liked" state
-        const likeButton = document.querySelector('[data-tag="like-button"]');
+    function processPosts() {
+        // Select all posts that may contain attachments
+        const posts = document.querySelectorAll('[data-tag="post-card"]');
+        posts.forEach(post => {
+            const attachmentContainer = post.querySelector('[data-tag="post-attachments"]');
+            if (attachmentContainer) {
+                const attachmentElements = attachmentContainer.querySelectorAll('a[data-tag="post-attachment-link"]');
+                attachmentElements.forEach(element => {
+                    element.addEventListener('click', () => {
+                        likePostIfNotLiked(post);
+                    });
+                });
+            }
+        });
+    }
+
+    function likePostIfNotLiked(postElement) {
+        if (!postElement) return;
+        const likeButton = postElement.querySelector('[data-tag="like-button"]');
         if (likeButton && likeButton.getAttribute('aria-checked') === 'false') {
             // Simulate a user click on the like button using a mouse event
             const event = new MouseEvent('click', {
@@ -38,7 +56,7 @@
                 view: window
             });
             likeButton.dispatchEvent(event);
-            console.log('Simulate like click.');
+            console.log('Attempted to like the post by dispatching a click event.');
         }
     }
 })();

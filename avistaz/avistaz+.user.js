@@ -118,7 +118,7 @@
                         if (addedDateElement) {
                             const addedDateText = addedDateElement.textContent.trim().toLowerCase();
                             const originalTitleText = addedDateElement.getAttribute('data-original-title')?.toLowerCase().trim() || "";
-                            console.log(`Checking date text: "${addedDateText}" and data-original-title: "${originalTitleText}" on page: ${pageNumber}`);
+                            // console.log(`Checking date text: "${addedDateText}" and data-original-title: "${originalTitleText}" on page: ${pageNumber}`);
                             
                             // Check if either the text content or the attribute contains "1 month"
                             if (fullScanCompleted && (addedDateText.includes("1 month") || originalTitleText.includes("1 month"))) {

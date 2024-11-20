@@ -5,6 +5,7 @@
 // @description  Download all Patreon post attachments as a ZIP file
 // @author       Mio.
 // @supportURL   https://github.com/dear-clouds/mio-userscripts/issues
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=patreon.com
 // @license      GPL-3.0
 // @match        *://*.patreon.com/posts/*
 // @grant        GM_xmlhttpRequest

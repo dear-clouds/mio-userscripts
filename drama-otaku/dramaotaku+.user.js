@@ -6,6 +6,7 @@
 // @namespace    https://github.com/dear-clouds/mio-userscripts
 // @supportURL   https://github.com/dear-clouds/mio-userscripts/issues
 // @downloadURL  https://github.com/dear-clouds/mio-userscripts/raw/refs/heads/main/drama-otaku/dramaotaku+.user.js
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=drama-otaku.com
 // @license      GPL-3.0
 // @match        *://*.drama-otaku.com/subtitle-project/*
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js

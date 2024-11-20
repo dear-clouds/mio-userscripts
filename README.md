@@ -9,6 +9,12 @@ Usercripts can be updated automatically via the add-on and everything should be 
 > [!NOTE]
 > I can take requests when I feel like it and they interest me, just open an [new issue](https://github.com/dear-clouds/mio-userscripts/issues/new) with the label request.
 
+## AvistaZ
+[AvistaZ+](https://github.com/dear-clouds/mio-userscripts/raw/refs/heads/main/avistaz/avistaz+.user.js): I plan to add features as needed. Current features:
+- Calculates seed time
+- Auto-thanks when downloading
+- Find hidden Hit & Runs
+
 ## Drama-Otaku
 [DramaOtaku+](https://github.com/dear-clouds/mio-userscripts/raw/refs/heads/main/drama-otaku/dramaotaku+.user.js): I plan to add features as needed. Current features:
 - Download all subs as ZIP

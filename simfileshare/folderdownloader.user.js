@@ -5,6 +5,7 @@
 // @description  Adds a button to download all files in a Simfileshare folder as a zip file and individual download buttons
 // @author       Mio.
 // @supportURL   https://github.com/dear-clouds/mio-userscripts/issues
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=simfileshare.net
 // @match        *://*.simfileshare.net/folder/*
 // @grant        none
 // @license      GPL-3.0

@@ -5,6 +5,7 @@
 // @description  Automatically like a post when downloading an attachment on Patreon
 // @author       Mio.
 // @supportURL   https://github.com/dear-clouds/mio-userscripts/issues
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=patreon.com
 // @license      GPL-3.0
 // @match        *://*.patreon.com/posts/*
 // @grant        none

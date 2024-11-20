@@ -10,7 +10,7 @@ Usercripts can be updated automatically via the add-on and everything should be 
 > I can take requests when I feel like it and they interest me, just open an [new issue](https://github.com/dear-clouds/mio-userscripts/issues/new) with the label request.
 
 ## Anilist
-- Random Shortcuts + Custom ones: [Greasyfork]()
+- Random Shortcuts + Custom ones: [Greasyfork](https://greasyfork.org/en/scripts/518263-anilist-shortcuts)
 
 ## AvistaZ
 [AvistaZ+](https://greasyfork.org/en/scripts/518249-avistaz): I plan to add features as needed. Current features:

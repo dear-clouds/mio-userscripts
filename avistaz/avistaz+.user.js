@@ -49,6 +49,27 @@
             }
         });
     });
+
+        // Function to bypass anon.to redirects
+        function bypassAnonRedirects() {
+            const allLinks = document.querySelectorAll('a');
+    
+            allLinks.forEach(link => {
+                if (link.href.startsWith('https://anon.to/?')) {
+                    const realURL = link.href.split('?')[1];
+    
+                    if (realURL) {
+                        link.href = decodeURIComponent(realURL);
+    
+                        if (window.location.href.startsWith('https://anon.to/')) {
+                            window.location.href = decodeURIComponent(realURL);
+                        }
+                    }
+                }
+            });
+        }
+
+        bypassAnonRedirects();
     
     // Function to gather all Hit & Run entries from history pages
     async function collectHitAndRuns() {
